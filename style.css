@@ -210,9 +210,10 @@ ul a:hover i{
 .links-social{
     /* border:1px solid white; */
     margin-top: 20px;
+    margin-left: -19px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     gap:30px;
     padding:10px 20px;
     margin-bottom: 80px;
@@ -258,6 +259,43 @@ ul a:hover i{
   box-shadow: 20px 20px 0 rgba(238, 236, 236, 0.274);
 }
 
+.bubble1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(133, 129, 129, 0.198);
+    border-radius: 50%;
+    top: 287px;
+    left: 400px;
+    /* filter: blur(10px); */
+    z-index: -1;
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 0s;
+}
+
+.bubble2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+     background: rgba(133, 129, 129, 0.198);
+    border-radius: 50%;
+    top: 100px;
+    left: 900px;
+    /* filter: blur(10px); */
+    z-index: -1;
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+/* Animation Keyframes */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px); /* move up 30px */
+    }
+}
 
 /* Header section section ends */
 
