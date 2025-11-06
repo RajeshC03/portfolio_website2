@@ -1114,3 +1114,338 @@ section.services {
 /* Services section ends */
 
 
+
+/* Testimonial section starts */
+
+.testimonial {
+  /* border:1px solid white; */
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top:60px;
+  margin-left: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.testimonial-header {
+  /* border: 1px solid white; */
+  margin-bottom: 90px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.testimonial-header h2 {
+  /* border:1px solid white; */
+  font-size: 28px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.testimonial h2::before,
+.testimonial h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+}
+
+.testimonial h2::before {
+  left: -50px;
+}
+
+.testimonial h2::after {
+  right: -50px;
+}
+
+.sub-text {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.testimonial-container {
+  /* border:1px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+
+
+.card-box {
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  position: relative;
+  text-align: left;
+  transition: all 0.5s ease;
+}
+
+.card-box:hover {
+  background-color: #333;
+  transform: translateY(-15px);
+  box-shadow: 0px 10px 40px 4px rgba(216, 216, 216, 0.178);
+}
+
+.card-box span{
+  /* border:1px solid white; */
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.63);
+  background-color: rgba(212, 205, 205, 0.185);
+  border-radius: 50%;
+  width:30px;
+  height:30px;
+  text-align: center;
+  
+}
+
+.testimonial-container > .card-box + #second-card {
+  margin-top: 90px;
+  height: 350px;
+} 
+
+.testimonial-container > .card-box + #second-card .profile{
+  margin-top: 15px;
+}
+
+.card-box p {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.profile {
+  /* border: 1px solid white;  */
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.profile h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.profile p {
+  margin: 0;
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* Testimonial section ends */
+
+
+/* Contact section starts */
+
+.contact {
+  /* border:1px solid white; */
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top:60px;
+  margin-left: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.contact-header {
+  margin-bottom: 90px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 28px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.contact h2::before,
+.contact h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 2px;
+  background: #fff;
+}
+
+.contact h2::before {
+  left: -50px;
+}
+
+.contact h2::after {
+  right: -50px;
+}
+
+.sub-text {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  /* border: 1px solid white; */
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+/* Left box */
+.contact-information {
+  background: #f4f4f4;
+  color: #000;
+  border-radius: 10px;
+  width: 320px;
+  padding: 30px;
+  text-align: left;
+}
+
+.contact-information h3 {
+  color: #3a2b2b;
+  margin-bottom: 10px;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.info-item i {
+  font-size: 20px;
+  color: #6a5acd;
+  background: #ececec;
+  padding: 12px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.info-item h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.info-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Right box */
+.contact-form {
+  background: #2b2b2b;
+  border-radius: 10px;
+  width: 500px;
+  padding: 30px;
+  text-align: left;
+}
+
+.contact-form h3 {
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  color: #bbb;
+  margin-bottom: 25px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: #333;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: inherit;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #999;
+}
+
+.contact-form button {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #6a5acd;
+  color: #fff;
+}
+
+/* Contact section ends */
+
+
+/* Footer section starts */
+
+.footer{
+  border-top: 1px solid rgba(255, 255, 255, 0.253);
+  margin-top:60px;
+  margin-left: 350px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-bottom: 60px; */
+}
+
+.footer-content{
+  /* border:1px solid white; */
+  padding:20px 40px;
+  justify-content: space-between;
+  width:500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content p{
+  color:rgba(255, 255, 255, 0.479);
+  font-size: 14px;
+}
+
+/* Footer section ends */
