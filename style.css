@@ -1403,19 +1403,32 @@ section.services {
   color: #999;
 }
 
-.contact-form button {
-  background: #fff;
+.contact-form .submit-button {
+  /* border:1px solid white; */
+  /* background: #fff; */
   color: #000;
-  border: none;
   border-radius: 25px;
-  padding: 10px 25px;
   font-weight: 500;
-  cursor: pointer;
   transition: 0.3s ease;
+  margin:0 auto;
+  text-align: center;
+  width:190px;
+  overflow: hidden;
+  
 }
 
-.contact-form button:hover {
-  background: #6a5acd;
+.submit-button button{
+  font-size: 15px;
+  padding:20px 35px;
+  width:190px;
+  border:none;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.contact-form .submit-button:hover button{
+  background: #686869a9;
   color: #fff;
 }
 
