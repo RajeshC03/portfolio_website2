@@ -309,15 +309,19 @@ ul a:hover i{
   justify-content: center;
   align-items: flex-start;
   padding: 40px;
-  gap: 40px;
+  gap: 90px;
+  margin-bottom: 30px;
+  width:1071px;
+  margin-left: 140px;
 }
 
 /* Profile Card */
+
 .profile-card {
-  /* border:1px solid white; */
+  border:1px solid white;
   background-color: #1c1c1c;
-  padding: 30px;
-  width: 300px;
+  padding: 10px;
+  width: 550px;
   text-align: center;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
@@ -330,7 +334,7 @@ ul a:hover i{
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
 }
 
 .role {
@@ -357,7 +361,8 @@ ul a:hover i{
 
 /* About Section */
 .about-section {
-  max-width: 600px;
+  /* border:1px solid white; */
+  width: 900px;
 }
 
 .btn-small {
@@ -390,6 +395,7 @@ ul a:hover i{
   border-radius: 10px;
   padding: 20px;
   margin: 20px 0;
+  gap:20px;
 }
 
 .stat h2 {
@@ -519,6 +525,8 @@ ul a:hover i{
 }
 /* About section ends */
 
+
+
 /* Skills section starts */
 
 .skills {
@@ -527,7 +535,7 @@ ul a:hover i{
   color: #fff;
   padding: 60px 0;
   text-align: center;
-  width:900px;
+  width:920px;
   margin-left: 350px;
 }
 
@@ -635,11 +643,11 @@ ul a:hover i{
 /* Resume section starts */
 
 .resume {
-  /* border:1px solid white; */
+  border:1px solid white;
   background-color: #1c1c1c;
   color: #fff;
   padding: 60px 0;
-  width:900px;
+  width:920px;
   margin-left: 350px;
   margin-top: 60px;
 }
@@ -905,6 +913,7 @@ section.services {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 60px;
+  width:920px;
 }
 
 .services-header {
@@ -1127,6 +1136,7 @@ section.services {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 60px;
+  width:920px;
 }
 
 .testimonial-header {
@@ -1269,6 +1279,7 @@ section.services {
   padding: 60px 20px;
   margin-top:60px;
   margin-left: 350px;
+  width:920px;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 60px;
