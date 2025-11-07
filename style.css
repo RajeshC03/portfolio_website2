@@ -309,7 +309,7 @@ ul a:hover i{
   justify-content: center;
   align-items: flex-start;
   padding: 40px;
-  gap: 90px;
+  gap: 80px;
   margin-bottom: 30px;
   width:1071px;
   margin-left: 140px;
@@ -318,46 +318,60 @@ ul a:hover i{
 /* Profile Card */
 
 .profile-card {
-  border:1px solid white;
+  /* border: 1px solid white; */
   background-color: #1c1c1c;
-  padding: 10px;
-  width: 550px;
+  padding: 25px;
+  width: 350px; /* Increased from 550px → 350px for better proportion */
   text-align: center;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  margin-left: 320px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  margin-left: 270px; /* Adjust if needed */
 }
 
 .profile-img {
-  width: 100px;
-  height: 100px;
+  width: 140px; /* increased from 100px */
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
-  border: 2px solid #fff;
+  margin-bottom: 20px;
+  border: 2dvb solid #fff;
+}
+
+.profile-card h2 {
+  font-size: 22px; /* increased text size */
+  margin-bottom: 8px;
+  color: #fff;
 }
 
 .role {
   color: #ccc;
-  margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 25px;
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .info {
   background-color: #2a2a2a;
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 14px;
+  border-radius: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info i {
-  margin-right: 8px;
+  margin-right: 10px;
+  font-size: 16px;
 }
+
 
 /* About Section */
 .about-section {
@@ -532,6 +546,7 @@ ul a:hover i{
 .skills {
   /* border: 1px solid white; */
   background-color: #1c1c1c;
+  border-radius: 20px;
   color: #fff;
   padding: 60px 0;
   text-align: center;
@@ -643,8 +658,9 @@ ul a:hover i{
 /* Resume section starts */
 
 .resume {
-  border:1px solid white;
+  /* border:1px solid white; */
   background-color: #1c1c1c;
+  border-radius: 20px;
   color: #fff;
   padding: 60px 0;
   width:920px;
@@ -907,6 +923,7 @@ ul a:hover i{
 section.services {
   /* border:1px solid white; */
   background-color: #1c1c1c;
+  border-radius: 20px;
   padding: 60px 100px;
   margin-top:60px;
   margin-left: 350px;
@@ -1129,6 +1146,7 @@ section.services {
 .testimonial {
   /* border:1px solid white; */
   background-color: #1c1c1c;
+  border-radius: 20px;
   text-align: center;
   padding: 60px 20px;
   margin-top:60px;
@@ -1275,6 +1293,7 @@ section.services {
 .contact {
   /* border:1px solid white; */
   background-color: #1c1c1c;
+  border-radius: 20px;
   text-align: center;
   padding: 60px 20px;
   margin-top:60px;
