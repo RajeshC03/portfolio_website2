@@ -189,9 +189,11 @@ ul a:hover i{
 }
 
 .role {
+  /* border:1px solid white; */
   display: flex;
   font-size: 20px;
-  margin: 10px 0 25px;
+  margin: 19px 0;
+  text-align: center;
   gap:6px;
 }
 
@@ -210,12 +212,12 @@ ul a:hover i{
   display: inline-block;
   white-space: nowrap;
   overflow: hidden; /* Ensures the content is hidden until revealed */  
-  animation: typing 4s steps(12) infinite, blink 0.9s step-end infinite;
+  animation: typing 6s steps(20) infinite, blink 0.5s step-end infinite;
 }
 
 @keyframes typing {
   0% { width: 0; }
-  50% { width: 160px; } /* fully typed */
+  50% { width: 190px; } /* fully typed */
   100% { width: 0; } /* delete again */
 }
 
@@ -405,10 +407,12 @@ ul a:hover i{
   color: #fff;
 }
 
-.role {
+.about-role{
+  /* border:1px solid white; */
   color: #ccc;
   font-size: 16px;
   margin-bottom: 25px;
+  
 }
 
 .contact-info {
