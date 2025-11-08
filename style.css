@@ -10,6 +10,43 @@ body{
     color: white;
 }
 
+.upward-btn {
+    border:1px solid rgba(184, 175, 175, 0.288);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgba(255, 255, 255, 0.096);
+    /* padding: 10px; */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+/* Make <a> fill the whole circle */
+.upward-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%;
+    height: 100%; */
+}
+
+/* Make red background cover entire circle */
+.upward-btn a i {
+    /* background: red; */
+    color: white;
+    font-size: 20px;
+    padding:20px;
+    /* border-radius: 50%;  */
+}
+
+.upward-btn:hover{
+  border:1px solid rgba(224, 219, 219, 0.644);
+  background-color: rgba(216, 215, 215, 0.24);
+}
+
 /* Side nav bar starts */
 
 .nav-bar{
