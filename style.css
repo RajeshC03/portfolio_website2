@@ -84,6 +84,9 @@ ul a i{
 }
 
 ul a{
+    /* border:1px solid white; */
+    width:100%;
+    display: block;
     text-decoration: none;
     color:rgba(255, 255, 255, 0.438);
     transition: all 0.5s ease;
