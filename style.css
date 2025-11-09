@@ -216,7 +216,7 @@ ul a:hover i{
 }
 
 @keyframes typing {
-  0% { width: 0; }
+  0% { width: 0; }  /* First zero */
   50% { width: 190px; } /* fully typed */
   100% { width: 0; } /* delete again */
 }
@@ -522,12 +522,19 @@ ul a:hover i{
 .btn-download {
   background-color: #fff;
   color: #000;
+  transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #e7e3e3d2;
+  color: #1a1919;
 }
 
 .btn-talk {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
+  transition: all 0.3s ease;
 }
 
 .btn-talk:hover {
