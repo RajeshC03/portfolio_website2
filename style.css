@@ -13,7 +13,7 @@ body{
 .upward-btn {
     border:1px solid rgba(184, 175, 175, 0.288);
     position: fixed;
-    bottom: 30px;
+    bottom: 10px;
     right: 30px;
     background-color: rgba(255, 255, 255, 0.096);
     /* padding: 10px; */
@@ -37,13 +37,13 @@ body{
 .upward-btn a i {
     /* background: red; */
     color: white;
-    font-size: 20px;
-    padding:20px;
+    font-size: 16px;
+    padding:14px;
     /* border-radius: 50%;  */
 }
 
 .upward-btn:hover{
-  border:1px solid rgba(224, 219, 219, 0.644);
+  border:1px solid rgba(224, 219, 219, 0.733);
   background-color: rgba(216, 215, 215, 0.24);
 }
 
@@ -58,10 +58,11 @@ body{
     align-items: center;
     align-content: center;
     /* margin:auto 0; */
+    margin-top: 30px;
     margin-left: 20px;
     position: fixed;
     top: 10%;
-    height: 530px;
+    height: 480px;
     width:260px;
 
 }
@@ -79,9 +80,9 @@ body{
     padding-top: 70px;
     list-style: none;
     width: 100%;    
-    line-height: 58px;
+    line-height: 49px;
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 40px;
     
 }
 
@@ -114,7 +115,7 @@ ul a:hover i{
     /* border: 1px solid white; */
     gap:30px;
     padding:10px 20px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 /* .social-media a{
@@ -149,6 +150,7 @@ ul a:hover i{
 .main-box {
   margin-left: 280px;
   margin-top: 80px;
+  margin-bottom: 30px;
   padding: 80px;
   /* border:1px solid white; */
   display: flex;
@@ -163,6 +165,7 @@ ul a:hover i{
 }
 
 .text-body{
+  margin-top: 30px;
   /* border:1px solid white; */
   width: 1000px;
   /* margin-right: 30px; */
@@ -222,7 +225,7 @@ ul a:hover i{
   display: inline-block;
   white-space: nowrap;
   overflow: hidden; /* Ensures the content is hidden until revealed */  
-  animation: typing 6s steps(20) infinite, blink 0.5s step-end infinite;
+  animation: typing 5s steps(20) infinite, blink 0.5s step-end infinite;
 }
 
 @keyframes typing {
@@ -232,7 +235,7 @@ ul a:hover i{
 }
 
 @keyframes blink {
-  50% { border-color: transparent; }
+  20% { border-color: transparent; }
 }
 
 
@@ -291,6 +294,8 @@ ul a:hover i{
     gap:30px;
     padding:10px 20px;
     margin-bottom: 80px;
+    text-decoration: none;
+
 }
 
 .links-social a i{
@@ -305,7 +310,8 @@ ul a:hover i{
     align-items: center;       
     justify-content: center;   
     font-size: 14px; 
-    transition: all 0.5s ease;       
+    transition: all 0.5s ease;  
+    text-decoration: none;     
 }
 
 .links-social a i:hover{
@@ -313,6 +319,10 @@ ul a:hover i{
     color: #1f1f1f;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px 6px rgba(255, 255, 255, 0.14);
+}
+
+.fa-brands{
+    text-decoration: none;
 }
 
 .img-block{
@@ -327,7 +337,7 @@ ul a:hover i{
 
 .img-block img {
   width: 400px;
-  height: 400px;    
+  height: 470px;    
   border-radius: 20px;
   object-fit: cover;
   box-shadow: 20px 20px 0 rgba(238, 236, 236, 0.274);
